@@ -1,32 +1,20 @@
 using Toybox.WatchUi as Ui;
 
-class GlucoseMeterView extends Ui.View {
+class GlucoseMeterView extends Ui.SimpleDataField {
 
+    // Set the label of the data field here.
     function initialize() {
-        View.initialize();
+        SimpleDataField.initialize();
+        label = "My Label";
     }
 
-    // Load your resources here
-    function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
-    }
-
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
-    function onShow() {
-    }
-
-    // Update the view
-    function onUpdate(dc) {
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-    }
-
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() {
+    // The given info object contains all the current workout
+    // information. Calculate a value and return it in this method.
+    // Note that compute() and onUpdate() are asynchronous, and there is no
+    // guarantee that compute() will be called before onUpdate().
+    function compute(info) {
+        // See Activity.Info in the documentation for available information.
+        return 0.0;
     }
 
 }

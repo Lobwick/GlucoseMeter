@@ -1,79 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="5" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="6" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="10" pc="268435479" symbol="onLayout"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="11" pc="268435483" symbol="onLayout"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="17" pc="268435521" symbol="onShow"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="21" pc="268435526" symbol="onUpdate"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="23" pc="268435530" symbol="onUpdate"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="29" pc="268435551" symbol="onHide"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="5" pc="268435556" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="6" pc="268435560" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="10" pc="268435579" symbol="onStart"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="14" pc="268435584" symbol="onStop"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="18" pc="268435589" symbol="getInitialView"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="19" pc="268435593" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="19" pc="268435631" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="23" pc="268435643" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="24" pc="268435774" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="25" pc="268435826" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268435878" symbol="MainLayout"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="8" pc="268435478" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="15" pc="268435492" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="17" pc="268435496" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="5" pc="268435503" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="6" pc="268435507" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="10" pc="268435526" symbol="onStart"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="14" pc="268435531" symbol="onStop"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="18" pc="268435536" symbol="getInitialView"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="19" pc="268435540" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="15" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="16" symbol="AppName"/>
-<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="8389065" symbol="locY"/>
-<entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389137" method="true" symbol="compute"/>
 <entry id="9" object="true" symbol="GlucoseMeterView"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="13" symbol="id_monkey"/>
 <entry id="10" object="true" symbol="GlucoseMeterApp"/>
 <entry id="12" module="true" symbol="Layouts"/>
-<entry id="8389125" method="true" symbol="onHide"/>
-<entry id="8389345" symbol="rezId"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="8389063" symbol="identifier"/>
 <entry id="11" module="true" symbol="Menus"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
-<entry endPc="268435551" name="dc" stackId="1" startPc="268435526"/>
-<entry endPc="268435584" name="state" stackId="1" startPc="268435579"/>
-<entry endPc="268435589" name="state" stackId="1" startPc="268435584"/>
-<entry endPc="268435895" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268435643"/>
-<entry endPc="268435896" name="dc" stackId="1" startPc="268435631"/>
+<entry endPc="268435503" name="info" stackId="1" startPc="268435492"/>
+<entry endPc="268435531" name="state" stackId="1" startPc="268435526"/>
+<entry endPc="268435536" name="state" stackId="1" startPc="268435531"/>
 </localVars>
 <annotations/>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="GlucoseMeterView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="GlucoseMeterView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="GlucoseMeterView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="GlucoseMeterView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="GlucoseMeterView">
+<functionEntry accessMode="public" name="compute" parent="GlucoseMeterView">
+<param id="info"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="GlucoseMeterApp">
@@ -90,21 +60,17 @@
 <functionEntry accessMode="public" name="getInitialView" parent="GlucoseMeterApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
-</functionEntry>
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="166" parentId="globals" symbolId="GlucoseMeterApp" type="class"/>
 <dataEntry offset="237" parentId="globals" symbolId="GlucoseMeterView" type="class"/>
-<dataEntry offset="316" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="442" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="473" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="504" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="535" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="574" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="292" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="371" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="410" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="441" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="472" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="503" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="534" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 </debugInfo>
