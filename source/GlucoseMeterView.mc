@@ -3,8 +3,11 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Application as App;
 using Toybox.Time.Gregorian as Calendar;
+using Toybox.FitContributor as Fit;
 
 class GlucoseMeterView extends Ui.SimpleDataField {
+    var glucoseField = null;
+    const GLUCOSE_METER_FIELD_ID = 1;
 
     // Set the label of the data field here.
     function initialize() {
@@ -18,6 +21,17 @@ class GlucoseMeterView extends Ui.SimpleDataField {
         var now=Sys.getClockTime();
         var ts=now.hour+":"+now.min.format("%02d");
         Sys.println("From OS: data="+bgdata+" elapsedMinutesMin="+elapsedMinutesMin+" at "+ts);        
+        
+         glucoseField = createField(
+            "Glucose Meter",
+            GLUCOSE_METER_FIELD_ID,
+            Fit.DATA_TYPE_FLOAT,
+            {:mesgType=>Fit.MESG_TYPE_RECORD, :units=>"mg/dl"}
+        );
+        if ((bgdata != null) &&
+            bgdata.hasKey("bg")) {
+        	glucoseField.setData(bgdata["bg"]);
+    	}
     }
 
     // The given info object contains all the current workout
@@ -46,6 +60,7 @@ class GlucoseMeterView extends Ui.SimpleDataField {
         if ((bgdata != null) &&
             bgdata.hasKey("bg")) {
             myStr = myStr + bgdata["bg"];
+            glucoseField.setData(bgdata["bg"]);
         }
 
         if ((bgdata != null) &&

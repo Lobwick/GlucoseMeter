@@ -45,7 +45,9 @@ class GlucoseMeterApp extends App.AppBase {
      function onSettingsChanged() {
         myPrintLn("in onSettingsChanged");
         var thisApp = Application.getApp();
+//        var nsurl = ""thisApp.getProperty("nsurl");""
         var nsurl = "https://9StVvBHbqMcRUHFh@nighscout-felixmoulin.herokuapp.com" + "/api/v2/properties/bgnow,rawbg,delta";
+
 
         if ((nsurl != null) &&
             !nsurl.equals("") &&

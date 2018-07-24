@@ -1,4 +1,9 @@
+<resources>
 <settings>
-    <setting propertyKey="@Properties.nsurl" title="@Strings.nsurl" prompt="@Strings.nsurlPrompt">
-        <settingConfig type="url" required="true" /></setting>
+	<setting propertyKey="@Properties.nsurl" title="@Strings.nsurl" prompt="@Strings.nsurlPrompt">
+		<settingConfig type="url" required="true" /></setting>
 </settings>
+<fitContributions>        
+	<fitField id="1" displayInActivitySummary="false" displayInChart="true" sortOrder="0" precision="0" dataLabel="@Strings.field_label" chartTitle="@Strings.field_label" fillColor="#C80014" unitLabel="@Strings.field_units"  />
+</fitContributions>
+</resources>
