@@ -45,7 +45,7 @@ class GlucoseMeterApp extends App.AppBase {
      function onSettingsChanged() {
         myPrintLn("in onSettingsChanged");
         var thisApp = Application.getApp();
-//        var nsurl = ""thisApp.getProperty("nsurl");""
+		//var nsurl = ""thisApp.getProperty("nsurl");""
         var nsurl = "https://9StVvBHbqMcRUHFh@nighscout-felixmoulin.herokuapp.com" + "/api/v2/properties/bgnow,rawbg,delta";
 
 
@@ -129,8 +129,9 @@ class GlucoseMeterApp extends App.AppBase {
                     Background.registerForTemporalEvent(new Time.Duration(syncMinutes * 60));
                     cgmSynced = true;
                     if (elapsedMinutesMin > 3) {
-                        elapsedMinutesMin = 3;  // re-sync again if minimum found is greater than 3 minutes
+                        elapsedMinutesMin = 3;
                     }
+                  	// re-sync again if minimum found is greater than 3 minutes
                     App.getApp().setProperty(OSMINUTESMIN, elapsedMinutesMin);
                 }
             }

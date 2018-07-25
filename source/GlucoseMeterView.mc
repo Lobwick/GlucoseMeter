@@ -7,12 +7,12 @@ using Toybox.FitContributor as Fit;
 
 class GlucoseMeterView extends Ui.SimpleDataField {
     var glucoseField = null;
-    const GLUCOSE_METER_FIELD_ID = 1;
+    const GLUCOSE_METER_FIELD_ID = 0;
 
     // Set the label of the data field here.
     function initialize() {
      	SimpleDataField.initialize();
-        label = "Nightscout";
+        label = "Glucose";
 
         //read last values from the Object Store
         var temp=App.getApp().getProperty(OSDATA);
@@ -57,31 +57,29 @@ class GlucoseMeterView extends Ui.SimpleDataField {
             }
         }
 
-        if ((bgdata != null) &&
-            bgdata.hasKey("bg")) {
-            myStr = myStr + bgdata["bg"];
-            glucoseField.setData(bgdata["bg"]);
-        }
-
-        if ((bgdata != null) &&
-            bgdata.hasKey("elapsedMills")) {
-            var elapsedMills = bgdata["elapsedMills"];
-            var myMoment = new Time.Moment(elapsedMills / 1000);
-            var elapsedMinutes = Math.floor(Time.now().subtract(myMoment).value() / 60);
-            var elapsed = elapsedMinutes.format("%d") + "m";
-            if ((elapsedMinutes > 9999) || (elapsedMinutes < -999)) {
-                elapsed = "";
+        if (bgdata != null){
+            if (bgdata.hasKey("bg")) {
+                myStr = myStr + bgdata["bg"];
+                glucoseField.setData(bgdata["bg"]);
             }
-    
-            myStr = myStr + " " + elapsed;
-        }
 
-        if ((bgdata != null) &&
-            bgdata.hasKey("direction") &&
-            bgdata.hasKey("delta")) {
-            myStr = myStr + " " + bgdata["delta"] + " " + bgdata["direction"];
-        }
+            if (bgdata.hasKey("elapsedMills")) {
+                var elapsedMills = bgdata["elapsedMills"];
+                var myMoment = new Time.Moment(elapsedMills / 1000);
+                var elapsedMinutes = Math.floor(Time.now().subtract(myMoment).value() / 60);
+                var elapsed = elapsedMinutes.format("%d") + "m";
+                if ((elapsedMinutes > 9999) || (elapsedMinutes < -999)) {
+                    elapsed = "";
+                }
+        
+                myStr = myStr + " " + elapsed;
+            }
 
+            if (bgdata.hasKey("direction") &&
+                bgdata.hasKey("delta")) {
+                myStr = myStr + " " + bgdata["delta"] + " " + bgdata["direction"];
+            }
+        }
         return myStr;
     }
 
