@@ -108,6 +108,4 @@ class BgbgServiceDelegate extends Toybox.System.ServiceDelegate {
 		myPrintLn("fetching url: " + url);
     	Communications.makeWebRequest(url, {"format" => "json"}, {}, method(:onReceive));
     }
-    
-
 }

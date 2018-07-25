@@ -7,7 +7,7 @@ using Toybox.FitContributor as Fit;
 
 class GlucoseMeterView extends Ui.SimpleDataField {
     var glucoseField = null;
-    const GLUCOSE_METER_FIELD_ID = 0;
+    const GLUCOSE_METER_FIELD_ID = 2;
 
     // Set the label of the data field here.
     function initialize() {
@@ -71,7 +71,6 @@ class GlucoseMeterView extends Ui.SimpleDataField {
                 if ((elapsedMinutes > 9999) || (elapsedMinutes < -999)) {
                     elapsed = "";
                 }
-        
                 myStr = myStr + " " + elapsed;
             }
 
