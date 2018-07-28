@@ -5,18 +5,13 @@ using Toybox.Application as App;
 using Toybox.Time.Gregorian as Calendar;
 using Toybox.FitContributor as Fit;
 
-class GlucoseMeterView extends Ui.DataField {
+class GlucoseMeterView extends Ui.SimpleDataField {
     var glucoseField = null;
     const GLUCOSE_METER_FIELD_ID = 2;
-	var label;
-	var array = new [189];
-	var curPos = 0;
-	var HRmin = 0;
-	var HRmax = 120;
 
     // Set the label of the data field here.
     function initialize() {
-     	DataField.initialize();
+     	SimpleDataField.initialize();
         label = "Glucose";
 
         //read last values from the Object Store
@@ -37,12 +32,6 @@ class GlucoseMeterView extends Ui.DataField {
             bgdata.hasKey("bg")) {
         	glucoseField.setData(bgdata["bg"]);
     	}
-    	
-    	
-    	for (var i = 0; i < array.size(); ++i) {
-            array[i] = 0;
-        }
-        curPos = 0;
     }
 
     // The given info object contains all the current workout
@@ -91,36 +80,6 @@ class GlucoseMeterView extends Ui.DataField {
             }
         }
         return myStr;
-    }
-    
-    function drawGraph(dc, array){
-    	var ii;
-    	var scaling;
-    	for (var i = 0; i < array.size() && array[i] > 0; ++i) {
-    		Sys.println("array["+i+"]="+array[i]);
-        	ii = curPos-1-i;
-        	if(ii < 0) {
-        		ii = ii + array.size();
-        	}
-        	if(array[ii] >=0) {
-				//dc.setColor(arrayColours[arrayHRZone[ii]], Gfx.COLOR_TRANSPARENT);
-				scaling = (array[ii] - HRmin).toFloat() / (HRmax - HRmin).toFloat();
-				if(scaling > 1) {
-					scaling = 1;
-				} else if(scaling < 0) {
-					scaling = 0;
-				}
-				Sys.println("print line");
-				Sys.println(" i : " + i + " scaling : " + scaling);
-				dc.drawLine(201-i, 140, 201-i, (140-80*scaling).toNumber());
-			}
-        }
-    }
-    
-    function onUpdate(dc) {
-    	Sys.println("totototototo");
-    	array[0] = 120;    	
-    	drawGraph(dc, array);
     }
 
 }

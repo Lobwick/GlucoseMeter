@@ -1,112 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="12" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="13" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="16" pc="268435483" symbol="myPrintLn"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="17" pc="268435487" symbol="myPrintLn"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="20" pc="268435508" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="21" pc="268435512" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="23" pc="268435529" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="24" pc="268435537" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="27" pc="268435576" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="28" pc="268435576" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="29" pc="268435583" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="30" pc="268435590" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="31" pc="268435597" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="32" pc="268435604" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="34" pc="268435611" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="35" pc="268435630" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="36" pc="268435655" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="37" pc="268435690" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="39" pc="268435709" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="40" pc="268435734" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="41" pc="268435769" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="44" pc="268435788" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="47" pc="268435888" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="48" pc="268435935" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="49" pc="268435972" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="57" pc="268436084" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="58" pc="268436100" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="59" pc="268436107" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="63" pc="268436130" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="65" pc="268436177" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="66" pc="268436212" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="69" pc="268436240" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="72" pc="268436315" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="73" pc="268436367" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="75" pc="268436384" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="76" pc="268436430" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="77" pc="268436440" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="78" pc="268436450" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="79" pc="268436460" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="80" pc="268436470" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="81" pc="268436480" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="83" pc="268436513" symbol="onReceive"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="86" pc="268436532" symbol="onTemporalEvent"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="89" pc="268436536" symbol="onTemporalEvent"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="90" pc="268436549" symbol="onTemporalEvent"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="91" pc="268436569" symbol="onTemporalEvent"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="18" pc="268438534" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="19" pc="268438538" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="20" pc="268438556" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="23" pc="268438569" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="24" pc="268438603" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="24" pc="268438610" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="26" pc="268438623" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="27" pc="268438640" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="28" pc="268438679" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="30" pc="268438733" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="36" pc="268438816" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="38" pc="268438857" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="42" pc="268438892" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="43" pc="268438922" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="45" pc="268438951" symbol="initialize"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="52" pc="268438965" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="54" pc="268438969" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="56" pc="268438976" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="57" pc="268438988" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="60" pc="268438998" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="61" pc="268439010" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="63" pc="268439035" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="65" pc="268439076" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="67" pc="268439101" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="71" pc="268439108" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="72" pc="268439121" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="73" pc="268439146" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="74" pc="268439165" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="77" pc="268439200" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="78" pc="268439225" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="79" pc="268439241" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="80" pc="268439279" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="81" pc="268439341" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="82" pc="268439365" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="83" pc="268439390" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="85" pc="268439400" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="88" pc="268439416" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="90" pc="268439469" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="93" pc="268439521" symbol="compute"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="96" pc="268439525" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="97" pc="268439529" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="98" pc="268439529" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="99" pc="268439529" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="100" pc="268439570" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="101" pc="268439606" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="102" pc="268439625" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="103" pc="268439636" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="105" pc="268439655" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="107" pc="268439669" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="108" pc="268439721" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="109" pc="268439732" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="110" pc="268439742" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="111" pc="268439753" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="113" pc="268439763" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="114" pc="268439784" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="115" pc="268439817" symbol="drawGraph"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="120" pc="268439890" symbol="onUpdate"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="121" pc="268439894" symbol="onUpdate"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="122" pc="268439915" symbol="onUpdate"/>
-<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="123" pc="268439934" symbol="onUpdate"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="30" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="31" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="34" pc="268435483" symbol="myPrintLn"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="35" pc="268435487" symbol="myPrintLn"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="38" pc="268435508" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="39" pc="268435512" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="41" pc="268435529" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="42" pc="268435537" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="45" pc="268435576" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="46" pc="268435576" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="47" pc="268435583" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="48" pc="268435590" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="49" pc="268435597" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="50" pc="268435604" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="52" pc="268435611" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="53" pc="268435630" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="54" pc="268435655" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="55" pc="268435690" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="57" pc="268435709" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="58" pc="268435734" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="59" pc="268435769" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="62" pc="268435788" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="65" pc="268435888" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="66" pc="268435935" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="67" pc="268435972" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="75" pc="268436084" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="76" pc="268436100" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="77" pc="268436107" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="81" pc="268436130" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="83" pc="268436177" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="84" pc="268436212" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="87" pc="268436240" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="90" pc="268436315" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="91" pc="268436367" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="93" pc="268436384" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="94" pc="268436430" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="95" pc="268436440" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="96" pc="268436450" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="97" pc="268436460" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="98" pc="268436470" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="99" pc="268436480" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="101" pc="268436513" symbol="onReceive"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="104" pc="268436532" symbol="onTemporalEvent"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="107" pc="268436536" symbol="onTemporalEvent"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="108" pc="268436549" symbol="onTemporalEvent"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/NightscoutDataBG.mc" lineNum="109" pc="268436569" symbol="onTemporalEvent"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="13" pc="268438534" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="14" pc="268438538" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="15" pc="268438556" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="18" pc="268438569" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="19" pc="268438603" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="19" pc="268438610" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="21" pc="268438623" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="22" pc="268438640" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="23" pc="268438679" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="25" pc="268438733" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="31" pc="268438816" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="33" pc="268438857" symbol="initialize"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="41" pc="268438893" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="43" pc="268438897" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="45" pc="268438904" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="46" pc="268438916" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="49" pc="268438926" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="50" pc="268438938" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="52" pc="268438963" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="54" pc="268439004" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="56" pc="268439029" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="60" pc="268439036" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="61" pc="268439049" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="62" pc="268439074" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="63" pc="268439093" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="66" pc="268439128" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="67" pc="268439153" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="68" pc="268439169" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="69" pc="268439207" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="70" pc="268439269" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="71" pc="268439293" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="72" pc="268439318" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="74" pc="268439328" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="77" pc="268439344" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="79" pc="268439397" symbol="compute"/>
+<entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterView.mc" lineNum="82" pc="268439449" symbol="compute"/>
 <entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="29" pc="268436629" symbol="initialize"/>
 <entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="30" pc="268436633" symbol="initialize"/>
 <entry filename="/Users/moulin_f/Documents/workspace/GlucoseMeter/source/GlucoseMeterApp.mc" lineNum="34" pc="268436652" symbol="onStart"/>
@@ -186,35 +162,29 @@
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="19" symbol="bgdata"/>
-<entry field="true" id="29" symbol="curPos"/>
 <entry field="true" id="13" symbol="cgmSynced"/>
-<entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="39" symbol="nsurl"/>
+<entry field="true" id="34" symbol="nsurl"/>
 <entry id="8388637" module="true" symbol="Communications"/>
 <entry field="true" id="20" symbol="OSMINUTESMIN"/>
-<entry field="true" id="37" symbol="field_label"/>
-<entry field="true" id="38" symbol="field_units"/>
+<entry field="true" id="32" symbol="field_label"/>
+<entry field="true" id="33" symbol="field_units"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="8389138" symbol="label"/>
 <entry id="9" object="true" symbol="BgbgServiceDelegate"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="27" symbol="GLUCOSE_METER_FIELD_ID"/>
 <entry id="8389849" symbol="units"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry field="true" id="21" symbol="OSDATA"/>
-<entry field="true" id="30" symbol="HRmin"/>
-<entry field="true" id="28" symbol="array"/>
 <entry field="true" id="15" symbol="syncCounter"/>
 <entry field="true" id="17" symbol="SYNC_MINUTES"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="31" symbol="HRmax"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="40" symbol="AppName"/>
+<entry field="true" id="35" symbol="AppName"/>
 <entry field="true" id="14" symbol="elapsedMinutesMin"/>
 <entry id="8390146" module="true" symbol="Background"/>
-<entry field="true" id="35" symbol="LauncherIcon"/>
+<entry field="true" id="30" symbol="LauncherIcon"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry field="true" id="16" symbol="syncMinTime"/>
 <entry id="8389281" method="true" symbol="onStop"/>
@@ -228,16 +198,15 @@
 <entry field="true" id="26" symbol="glucoseField"/>
 <entry id="8390169" method="true" symbol="getServiceDelegate"/>
 <entry id="8390148" method="true" symbol="onTemporalEvent"/>
-<entry id="34" module="true" symbol="Layouts"/>
+<entry id="29" module="true" symbol="Layouts"/>
 <entry id="8390147" object="true" symbol="ServiceDelegate"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="23" symbol="myView"/>
 <entry field="true" id="12" symbol="setupReqd"/>
-<entry id="33" module="true" symbol="Menus"/>
+<entry id="28" module="true" symbol="Menus"/>
 <entry field="true" id="18" symbol="SYNC_EVENTS"/>
-<entry field="true" id="36" symbol="nsurlPrompt"/>
+<entry field="true" id="31" symbol="nsurlPrompt"/>
 <entry id="25" method="true" symbol="onReceive"/>
-<entry id="32" method="true" symbol="drawGraph"/>
 <entry field="true" id="11" symbol="canDoBG"/>
 <entry id="8389847" symbol="mesgType"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -254,22 +223,15 @@
 <entry endPc="268436532" name="responseCode" stackId="1" startPc="268435508"/>
 <entry endPc="268436532" name="data" stackId="2" startPc="268435508"/>
 <entry endPc="268436628" name="url" stackId="1" startPc="268436536"/>
-<entry endPc="268438951" name="i" stackId="4" startPc="268438922"/>
-<entry endPc="268438964" name="temp" stackId="1" startPc="268438538"/>
-<entry endPc="268438964" name="now" stackId="2" startPc="268438538"/>
-<entry endPc="268438964" name="ts" stackId="3" startPc="268438538"/>
-<entry endPc="268439413" name="elapsed" stackId="6" startPc="268439225"/>
-<entry endPc="268439413" name="elapsedMinutes" stackId="5" startPc="268439225"/>
-<entry endPc="268439413" name="myMoment" stackId="4" startPc="268439225"/>
-<entry endPc="268439413" name="elapsedMills" stackId="3" startPc="268439225"/>
-<entry endPc="268439524" name="myStr" stackId="2" startPc="268438969"/>
-<entry endPc="268439525" name="info" stackId="1" startPc="268438965"/>
-<entry endPc="268439889" name="i" stackId="5" startPc="268439570"/>
-<entry endPc="268439889" name="scaling" stackId="4" startPc="268439529"/>
-<entry endPc="268439889" name="ii" stackId="3" startPc="268439529"/>
-<entry endPc="268439890" name="dc" stackId="1" startPc="268439525"/>
-<entry endPc="268439890" name="array" stackId="2" startPc="268439525"/>
-<entry endPc="268439957" name="dc" stackId="1" startPc="268439890"/>
+<entry endPc="268438892" name="temp" stackId="1" startPc="268438538"/>
+<entry endPc="268438892" name="now" stackId="2" startPc="268438538"/>
+<entry endPc="268438892" name="ts" stackId="3" startPc="268438538"/>
+<entry endPc="268439341" name="elapsed" stackId="6" startPc="268439153"/>
+<entry endPc="268439341" name="elapsedMinutes" stackId="5" startPc="268439153"/>
+<entry endPc="268439341" name="myMoment" stackId="4" startPc="268439153"/>
+<entry endPc="268439341" name="elapsedMills" stackId="3" startPc="268439153"/>
+<entry endPc="268439452" name="myStr" stackId="2" startPc="268438897"/>
+<entry endPc="268439453" name="info" stackId="1" startPc="268438893"/>
 <entry endPc="268436657" name="state" stackId="1" startPc="268436652"/>
 <entry endPc="268436662" name="state" stackId="1" startPc="268436657"/>
 <entry endPc="268436687" name="x" stackId="1" startPc="268436662"/>
@@ -312,15 +274,6 @@
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="drawGraph" parent="GlucoseMeterView">
-<param id="dc"/>
-<param id="array"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="GlucoseMeterView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="GlucoseMeterApp">
 <documentation/>
 </functionEntry>
@@ -355,12 +308,12 @@
 <dataEntry offset="270" parentId="globals" symbolId="GlucoseMeterApp" type="class"/>
 <dataEntry offset="381" parentId="globals" symbolId="BgbgServiceDelegate" type="class"/>
 <dataEntry offset="2034" parentId="globals" symbolId="GlucoseMeterView" type="class"/>
-<dataEntry offset="2161" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="2240" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="2279" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="2310" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="2341" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="2372" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="2403" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="2105" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="2184" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="2223" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="2254" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="2285" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="2316" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="2347" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 </debugInfo>
