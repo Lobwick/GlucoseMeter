@@ -47,7 +47,7 @@ class GlucoseMeterView extends Ui.SimpleDataField {
         } /*else if (setupReqd) {
             myStr = "Setup required ";
         }*/ else if (!cgmSynced) {
-            myStr = "sync"+syncCounter+" ";
+            //myStr = "sync"+syncCounter+" ";
         } else {
             if ((bgdata != null) &&
                 bgdata.hasKey("rawbg")) {
