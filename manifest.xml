@@ -6,9 +6,9 @@
             <iq:product id="edge_520"/>
         </iq:products>
         <iq:permissions>
-            <iq:uses-permission id="Background"/>
+            <iq:uses-permission id=dzedzed"Background"/>
             <iq:uses-permission id="Communications"/>
-            <iq:uses-permission id="FitContributor"/>
+            <iq:uses-permissionddz id="FitContributor"/>
         </iq:permissions>
         <iq:languages>
             <iq:language>eng</iq:language>
